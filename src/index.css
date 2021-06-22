@@ -5,9 +5,106 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.table{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  min-height: max-content;
+  
+}
+
+.header{
+  display: flex;
+  background-color: #00203FFF;
+  color: white;
+  gap: 2.4rem;
+}
+
+.input{
+  width: 30rem;
+}
+
+.rows{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.row {
+  display: flex;
+  
+  /* gap: 5px; */
+  
+  height: 2rem;
+  /* padding: 0 1rem; */
+}
+
+p {
+  border: 1px solid gray;
+  background-color: #ADEFD1FF;
+  color: #00203FFF;
+  padding: 1rem;
+}
+
+
+.name, .city, .state, .phone, .genre {
+  width: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.genre,.name{
+  width: 25rem;
+
+}
+
+.footer,.topRow {
+  margin-top: 2rem;
+  display: flex;
+  gap: 50px;
+  background-color: #00203FFF;
+  padding: 10px;
+  color: white;
+  justify-content: center;
+}
+
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	background:linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+	background-color:#bddbfa;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+	background-color:#80b5ea;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+      
